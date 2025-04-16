@@ -1,5 +1,4 @@
-# BUAN 6382 – Deep Learning  
-## Project: CIFAR-10 Image Classification using CNNs
+  ## Project: CIFAR-10 Image Classification using CNNs
 
 ### **Team Members**
 - Dheeraj Rahul Reddy Piduru
