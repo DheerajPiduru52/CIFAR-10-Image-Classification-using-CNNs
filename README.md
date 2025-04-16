@@ -17,8 +17,8 @@
 - **Format**: 5 training `.py` batches + 1 test batch  
 - **Labels**:  
   `['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']`
-  ![images](assets/10images.jpg)
-  ![images1](assets/distribution.jpg)
+  ![images](assets/10images.png)
+  ![images1](assets/distribution.png)
 
 ### Tasks Performed
 - Custom `unpickle` function to load CIFAR-10 batches
@@ -61,8 +61,8 @@
 |-------|-----------|---------|------------|----------|
 | 10    | 82.73%    | 70.90%  | 0.4938     | 0.8863   |
 
-![bm](assets/bm.jpg)
-![bg](assets/bg.jpg)
+![bm](assets/bm.png)
+![bg](assets/bg.png)
   
 - **Saved as**: [`basic_cnn_cifar10.pth`](./assets/basic_cnn_cifar10.pth)
 
@@ -78,7 +78,7 @@
 - **Macro F1-Score**: 0.7036  
 - **Confusion Matrix**: Visualized with `ConfusionMatrixDisplay`
 
-![bcm](assets/bcm.jpg)
+![bcm](assets/bcm.png)
 
 
 ### Observations
@@ -105,8 +105,8 @@
 |-------|-----------|---------|------------|----------|
 | 20    | 75.28%    | 77.42%  | 0.7042     | 0.6606   |
 
-![im](assets/im.jpg)
-![ig](assets/ig.jpg)
+![im](assets/im.png)
+![ig](assets/ig.png)
 
 - **Saved as**: [`improved_cnn_cifar10.pth`](./assets/improved_cnn_cifar10.pth)
 
@@ -114,7 +114,7 @@
 - **Test Accuracy**: 76.74%  
 - **Macro F1-Score**: 0.7642  
 - Confusion matrix showed improved balance across classes
-![icm](assets/icm.jpg)
+![icm](assets/icm.png)
 ---
 
 ## Final Model: DeeperCNN
@@ -142,8 +142,8 @@
 |-------|-----------|---------|------------|----------|
 | 20    | 91.74%    | 91.42%  | 0.2383     | 0.2604   |
 
-![dm](assets/dm.jpg)
-![dg](assets/dg.jpg)
+![dm](assets/dm.png)
+![dg](assets/dg.png)
 
 - **Saved as**: [`deeper_model_epoch20.pth`](./assets/deeper_model_epoch20.pth)
 
@@ -151,7 +151,7 @@
 - **Test Accuracy**: 90.17%  
 - **Macro F1-Score**: 0.9009  
 - Confusion matrix confirms strong performance across all classes
-![dcm](assets/dcm.jpg)
+![dcm](assets/dcm.png)
 
 ---
 
