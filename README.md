@@ -1,5 +1,5 @@
 # BUAN 6382 – Deep Learning  
-## Project 1: CIFAR-10 Image Classification using CNNs
+## Project: CIFAR-10 Image Classification using CNNs
 
 ### **Team Members**
 - Dheeraj Rahul Reddy Piduru
@@ -17,6 +17,8 @@
 - **Format**: 5 training `.py` batches + 1 test batch  
 - **Labels**:  
   `['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']`
+  ![images](assets/10images.jpg)
+  ![images1](assets/distribution.jpg)
 
 ### Tasks Performed
 - Custom `unpickle` function to load CIFAR-10 batches
@@ -59,7 +61,11 @@
 |-------|-----------|---------|------------|----------|
 | 10    | 82.73%    | 70.90%  | 0.4938     | 0.8863   |
 
-- **Saved as**: `basic_cnn_cifar10.pth`
+![bm](assets/bm.jpg)
+![bg](assets/bg.jpg)
+  
+- **Saved as**: [`basic_cnn_cifar10.pth`](./assets/basic_cnn_cifar10.pth)
+
 - Validation plateaued after epoch 5 → potential overfitting
 
 ---
@@ -71,6 +77,9 @@
 - **Macro Recall**: 0.7047  
 - **Macro F1-Score**: 0.7036  
 - **Confusion Matrix**: Visualized with `ConfusionMatrixDisplay`
+
+![bcm](assets/bcm.jpg)
+
 
 ### Observations
 - Decent performance but underfitting on deeper patterns
@@ -96,13 +105,16 @@
 |-------|-----------|---------|------------|----------|
 | 20    | 75.28%    | 77.42%  | 0.7042     | 0.6606   |
 
-- **Saved as**: `improved_cnn_cifar10.pth`
+![im](assets/im.jpg)
+![ig](assets/ig.jpg)
+
+- **Saved as**: [`improved_cnn_cifar10.pth`](./assets/improved_cnn_cifar10.pth)
 
 ### Test Performance
 - **Test Accuracy**: 76.74%  
 - **Macro F1-Score**: 0.7642  
 - Confusion matrix showed improved balance across classes
-
+![icm](assets/icm.jpg)
 ---
 
 ## Final Model: DeeperCNN
@@ -130,12 +142,16 @@
 |-------|-----------|---------|------------|----------|
 | 20    | 91.74%    | 91.42%  | 0.2383     | 0.2604   |
 
-- **Saved as**: `deeper_model_epoch20.pth`
+![dm](assets/dm.jpg)
+![dg](assets/dg.jpg)
+
+- **Saved as**: [`deeper_model_epoch20.pth`](./assets/deeper_model_epoch20.pth)
 
 ### Test Performance
 - **Test Accuracy**: 90.17%  
 - **Macro F1-Score**: 0.9009  
 - Confusion matrix confirms strong performance across all classes
+![dcm](assets/dcm.jpg)
 
 ---
 
